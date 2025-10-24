@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Rosso | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Designer & Developer</p>
+        <h1 class="hero__title">Hi, I'm Vincent Rosso.</h1>
+        <p class="hero__subtitle">
+          I create clean, accessible digital experiences for startups and growing teams.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#projects">View Projects</a>
+          <a class="button button--ghost" href="#contact">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero__meta">
+        <ul>
+          <li>Based in San Francisco, CA</li>
+          <li>Available for freelance work</li>
+          <li>Focused on UX, Web, and Brand systems</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section">
+        <div class="section__header">
+          <h2>About</h2>
+          <p>
+            Over the past decade, I've partnered with early-stage startups and global teams to
+            design and build products that people love. I blend a product mindset with a detail
+            oriented design practice to deliver meaningful results.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>What I Do</h3>
+            <p>
+              Product design, front-end development, and brand systems that communicate clearly
+              and scale gracefully as your team grows.
+            </p>
+          </article>
+          <article>
+            <h3>How I Work</h3>
+            <p>
+              Collaborative workshops, iterative prototypes, and tight feedback loops help us move
+              quickly without sacrificing craft.
+            </p>
+          </article>
+          <article>
+            <h3>What Matters</h3>
+            <p>
+              Accessible experiences that perform well on any device and align with business
+              outcomes.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--alt">
+        <div class="section__header">
+          <h2>Featured Projects</h2>
+          <p>
+            A selection of recent work across product, marketing, and brand. Full case studies
+            available on request.
+          </p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="project-card__year">2024</span>
+              <span class="project-card__role">Product Design, Front-End</span>
+            </div>
+            <h3>Atlas Analytics</h3>
+            <p>
+              Led the end-to-end design and front-end build for a SaaS analytics platform,
+              improving user onboarding conversion by 35%.
+            </p>
+            <a class="project-card__link" href="#">Request case study</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="project-card__year">2023</span>
+              <span class="project-card__role">Brand, Web Design</span>
+            </div>
+            <h3>Northbound</h3>
+            <p>
+              Crafted the brand identity and marketing site for a travel membership program,
+              delivering a 22% lift in sign-ups within the first quarter.
+            </p>
+            <a class="project-card__link" href="#">View project deck</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__meta">
+              <span class="project-card__year">2022</span>
+              <span class="project-card__role">UX Research, UI Design</span>
+            </div>
+            <h3>Arbor Health</h3>
+            <p>
+              Reimagined the patient portal experience for a telehealth provider, reducing support
+              tickets by 40% and improving NPS by 18 points.
+            </p>
+            <a class="project-card__link" href="#">See full report</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section__header">
+          <h2>Get In Touch</h2>
+          <p>
+            I'm currently taking on select product and brand engagements. Tell me about your project
+            and let's explore how we can work together.
+          </p>
+        </div>
+        <div class="contact-card">
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:hello@vincentrosso.com">hello@vincentrosso.com</a>
+          </div>
+          <div>
+            <h3>Schedule</h3>
+            <a href="#">Book a 30-minute intro call</a>
+          </div>
+          <div>
+            <h3>Elsewhere</h3>
+            <ul class="contact-card__links">
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Dribbble</a></li>
+              <li><a href="#">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; <span id="year"></span> Vincent Rosso. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const yearElement = document.getElementById("year");
+      if (yearElement) {
+        yearElement.textContent = new Date().getFullYear().toString();
+      }
+    </script>
+  </body>
+</html>
