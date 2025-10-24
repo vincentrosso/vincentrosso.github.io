@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vincent Rosso · Delivery Solutions Architect (Data & AI)</title>
+  <meta name="description" content="Databricks-ready portfolio with STAR interview answers, case studies, KPIs, and contact info." />
+  <style>
+    :root{
+      --bg:#0f172a;          /* slate-900 */
+      --panel:#0b1229;       /* slightly lighter for panels */
+      --muted:#94a3b8;       /* slate-400 */
+      --text:#e2e8f0;        /* slate-200 */
+      --accent:#ff5f2e;      /* Databricks-esque orange */
+      --accent-2:#22d3ee;    /* cyan accent */
+      --card:#111827;        /* near-black */
+      --border:#1f2937;
+      --chip:#111827;
+      --chip-text:#cbd5e1;
+      --link:#f8fafc;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 10% -10%, rgba(255,95,46,.15), transparent 60%), radial-gradient(900px 500px at 120% 10%, rgba(34,211,238,.12), transparent 55%), var(--bg); color:var(--text); font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    a{color:var(--link); text-decoration:none}
+    a:hover{opacity:.9; text-decoration:underline}
+    .container{max-width:1100px; margin:0 auto; padding:0 20px}
+    header{position:sticky; top:0; z-index:10; backdrop-filter: blur(8px); background:rgba(15,23,42,.6); border-bottom:1px solid var(--border)}
+    header .inner{display:flex; align-items:center; justify-content:space-between; padding:14px 0}
+    nav a{margin:0 10px; font-size:.95rem}
+    .btn{display:inline-block; padding:10px 14px; border-radius:14px; background:linear-gradient(135deg, var(--accent), #ff7a59); color:white; font-weight:600; border:1px solid rgba(255,255,255,.08)}
+    .btn.secondary{background:transparent; border:1px solid var(--border); color:var(--text)}
+    .hero{padding:60px 0 30px}
+    .grid{display:grid; gap:22px}
+    .hero-grid{grid-template-columns: 1.3fr .9fr}
+    @media (max-width: 900px){ .hero-grid{grid-template-columns: 1fr} header nav{display:none} }
+    h1{font-size:2.1rem; line-height:1.2; margin:0 0 10px}
+    h2{font-size:1.6rem; margin:0 0 6px}
+    p.lead{color:var(--muted); margin:10px 0 18px}
+    .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px}
+    .chip{background:var(--chip); color:var(--chip-text); padding:6px 10px; border:1px solid var(--border); border-radius:999px; font-size:.8rem}
+    .panel{background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.015)); border:1px solid var(--border); border-radius:18px; padding:18px}
+    .cards{grid-template-columns: repeat(3, 1fr)}
+    @media (max-width: 900px){ .cards{grid-template-columns: 1fr} }
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)); border:1px solid var(--border); border-radius:18px; padding:18px}
+    .muted{color:var(--muted)}
+    ul{padding-left:18px; margin:10px 0}
+    .kpis{grid-template-columns: repeat(4,1fr)}
+    @media (max-width: 900px){ .kpis{grid-template-columns: repeat(2,1fr)} }
+    .kpi{background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01)); border:1px solid var(--border); border-radius:18px; padding:16px}
+    .kpi .label{font-size:.85rem; color:var(--muted)}
+    .kpi .nums{display:flex; justify-content:space-between; margin-top:6px}
+    footer{margin-top:50px; padding:28px 0; border-top:1px solid var(--border)}
+    .tag{font-weight:700; color:var(--accent)}
+    .split{display:grid; gap:22px; grid-template-columns: 1fr 1fr}
+    @media (max-width: 900px){ .split{grid-template-columns:1fr} }
+    .print-only{display:none}
+    @media print {
+      header, .btn, .chips, nav, .print-hide{display:none}
+      .print-only{display:block}
+      body{background:white; color:black}
+      .panel, .card, .kpi{border:1px solid #ddd; background:white}
+      a{color:inherit; text-decoration:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container inner">
+      <div><strong>Vincent Rosso</strong> · <span class="muted">Delivery Solutions Architect (Data &amp; AI)</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Case Studies</a>
+        <a href="#qa">Interview Q&amp;A</a>
+        <a href="#kpi">KPIs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn" href="mailto:vincentrosso@gmail.com">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="hero container">
+      <div class="grid hero-grid">
+        <div class="panel">
+          <h1>Creating certainty from uncertainty—onboarding to go‑live to healthy consumption</h1>
+          <p class="lead">Principal data &amp; cloud architect with 15+ years delivering Databricks/Spark Lakehouse platforms, ML enablement, and executive‑grade outcomes. I align technical delivery to measurable business KPIs.</p>
+          <div class="chips">
+            <span class="chip">Databricks</span><span class="chip">Apache Spark</span><span class="chip">Delta Lake</span>
+            <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Scala</span>
+            <span class="chip">AWS</span><span class="chip">Azure</span><span class="chip">MLflow</span>
+          </div>
+          <div style="margin-top:14px">
+            <a href="#qa" class="btn">Interview Q&amp;A</a>
+            <a href="#work" class="btn secondary" style="margin-left:10px">Case Studies</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Quick Stats</h2>
+          <ul class="muted">
+            <li>20+ enterprise deliveries across data intelligence &amp; AI</li>
+            <li>~60% avg runtime reduction via Spark/Delta optimization</li>
+            <li>20–40% cloud cost optimization with cluster policies &amp; guardrails</li>
+            <li>Executive governance: adoption, SLO, spend KPIs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Core Skills</h2>
+      <div class="grid cards">
+        <div class="card">Databricks Lakehouse · Apache Spark · Delta Lake</div>
+        <div class="card">Python · SQL · Scala</div>
+        <div class="card">AWS (Glue, EMR, S3, Redshift) · Azure (ADF, Synapse)</div>
+        <div class="card">MLflow · Airflow · CI/CD (repos &amp; jobs)</div>
+        <div class="card">Kubernetes/EKS · Terraform</div>
+        <div class="card">Solution/Enterprise Architecture · PMP · Stakeholder/Exec Comms</div>
+      </div>
+    </section>
+
+    <section id="work" class="container" style="margin-top:32px">
+      <h2>Selected Case Studies</h2>
+      <div class="grid cards">
+        <div class="card">
+          <strong>Telemetry &amp; Toll Analytics — <span class="tag">AWS + Databricks</span></strong>
+          <div class="muted" style="font-size:.9rem;margin-top:4px">Databricks, Spark, Delta Lake, AWS Glue, S3, Airflow, MLflow</div>
+          <div style="margin-top:8px"><strong>Role:</strong> Delivery architect from onboarding → go‑live; enablement; KPI reporting.</div>
+          <ul>
+            <li>60% runtime reduction via AQE, partitioning, and Delta optimization</li>
+            <li>3× reliability increase; on‑time SLAs for hourly jobs</li>
+            <li>35% cost down with autoscaling + cluster sizing playbook</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Mortgage Tax Servicing Modernization — <span class="tag">Azure + Databricks</span></strong>
+          <div class="muted" style="font-size:.9rem;margin-top:4px">Azure Databricks, ADF, Delta Lake, SQL, Power BI</div>
+          <div style="margin-top:8px"><strong>Role:</strong> Solution architect; stakeholder alignment, delivery roadmap, PS coordination.</div>
+          <ul>
+            <li>AS/400 to Lakehouse; 12h legacy queries → 20m</li>
+            <li>Data quality SLOs with expectations-based tests</li>
+            <li>Exec governance with adoption &amp; ROI dashboards</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Property Data Platform — <span class="tag">Multi‑cloud Lakehouse</span></strong>
+          <div class="muted" style="font-size:.9rem;margin-top:4px">Databricks, Spark, Delta, Kafka, Snowflake, Airflow</div>
+          <div style="margin-top:8px"><strong>Role:</strong> Principal consultant; productization of pipelines &amp; governance.</div>
+          <ul>
+            <li>90th‑percentile latency cut in half via skew mitigation &amp; Z‑order</li>
+            <li>CDC incremental processing → 70% fewer compute hours</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="qa" class="container" style="margin-top:32px">
+      <h2>Interview Q&amp;A (STAR‑oriented)</h2>
+      <div class="grid cards">
+        <div class="card">
+          <strong>Recent project you’re proud of—why it mattered?</strong>
+          <p class="muted">SITUATION:</p><p>Hourly telemetry jobs missing SLAs.</p>
+          <p class="muted">TASK:</p><p>Stabilize and meet 99% on‑time.</p>
+          <p class="muted">ACTION:</p><p>Databricks tuning (AQE, skew hints, partitioning), Delta OPTIMIZE+ZORDER, autoscaling policy, cost guardrails; MLflow registry.</p>
+          <p class="muted">RESULT:</p><p>−60% runtime, 3× reliability, −35% cost, green SLAs for 90 days.</p>
+        </div>
+        <div class="card">
+          <strong>Leadership style &amp; leading through uncertainty</strong>
+          <p>Outcome‑driven, calm under pressure, high‑context comms. During a Lakehouse cutover with conflicting priorities, I ran a 2‑hour RACI+risks workshop, aligned on a thin‑slice MVP, added blue/green backout and parallel validation. Go‑live on schedule, zero P1s, clear ownership.</p>
+        </div>
+        <div class="card">
+          <strong>Critical decisions framework</strong>
+          <p>Guardrail metrics (SLA, spend, reliability) + short decision memos (options, risks, blast radius). For cluster policy, compared three configs by cost/SLO impact; chose balanced spec with workload‑aware autoscaling; approved in one review.</p>
+        </div>
+        <div class="card">
+          <strong>Speed vs. quality trade‑off</strong>
+          <p>De‑scoped to a thin vertical (two critical reports), used Delta incremental loads, deferred polish behind feature flags. Launched on time; shipped hardening in two sprints; post‑launch incidents near zero.</p>
+        </div>
+        <div class="card">
+          <strong>Handling exec escalations</strong>
+          <p>Acknowledge impact → time‑boxed stabilization → single source of truth (war‑room doc). Hotfix (partition pruning), add expectations‑based data contracts, weekly KPI readouts. Confidence recovered in a week.</p>
+        </div>
+        <div class="card">
+          <strong>Discovery → roadmap</strong>
+          <p>Use‑case discovery (users, decisions, SLAs) → map to Lakehouse capabilities → MVP slices → 90‑day plan (enablement, adoption, cost controls) with RACI, risks, and KPI tree (latency, freshness, reliability, spend/1k rows).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kpi" class="container" style="margin-top:32px">
+      <h2>Outcome KPIs</h2>
+      <div class="grid kpis">
+        <div class="kpi"><div class="label">Pipeline runtime</div><div class="nums"><div><div class="label">Before</div><strong>85m</strong></div><div style="text-align:right"><div class="label">After</div><strong>34m</strong></div></div></div>
+        <div class="kpi"><div class="label">Job reliability (30d)</div><div class="nums"><div><div class="label">Before</div><strong>76%</strong></div><div style="text-align:right"><div class="label">After</div><strong>&gt;98%</strong></div></div></div>
+        <div class="kpi"><div class="label">Cloud spend (monthly)</div><div class="nums"><div><div class="label">Before</div><strong>$48k</strong></div><div style="text-align:right"><div class="label">After</div><strong>$31k</strong></div></div></div>
+        <div class="kpi"><div class="label">Adoption (active users)</div><div class="nums"><div><div class="label">Before</div><strong>34</strong></div><div style="text-align:right"><div class="label">After</div><strong>97</strong></div></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container split">
+      <div>
+        <h2>Let’s build your Lakehouse</h2>
+        <p class="muted">Available for Databricks Delivery Solutions Architect &amp; similar roles.</p>
+      </div>
+      <div>
+        <p><strong>Email:</strong> <a href="mailto:vincentrosso@gmail.com">vincentrosso@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vfrosso/" target="_blank" rel="noreferrer">/in/vfrosso</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/vincentrosso" target="_blank" rel="noreferrer">/vincentrosso</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
